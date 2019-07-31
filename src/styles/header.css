@@ -1,0 +1,39 @@
+
+#header-img-container {
+    position: relative;
+}
+
+#scoop_logo {
+    position: absolute;
+    /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
+    /* clip: rect(0, 100px, 200px, 0); */
+    clip: rect(104px, 248px, 196px, 16px);
+    size: 100px;
+    width: 263px;
+    height: 300px;
+    top: -105px;
+}
+
+#scoop-font {
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    margin-left: 196px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background: #EEEEEE;
+    color: #525558;
+    height: 100px;
+    border-bottom: 0.8px solid rgba(173,173,173,0.603);
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#header span {
+    margin-top: 12px;
+}
+#menu-font {
+    font-size: 50px;
+    margin-right: 25px;
+}

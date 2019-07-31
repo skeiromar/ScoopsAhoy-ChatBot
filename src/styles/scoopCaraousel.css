@@ -1,0 +1,19 @@
+.img-container {   
+    width: 1200px;
+    height: 800px;
+    /* border-radius: 500px; */
+    justify-content: center;
+    align-items: center;
+}
+
+#img {
+    border-radius: 5px;
+    width: 1500px;
+    height: 945px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 171px;
+}
+.carousel-caption{
+    margin-left: 343px;
+}
