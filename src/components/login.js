@@ -29,8 +29,7 @@ const Login = props => {
 };
 
 const buttonContainerStyle = {
-  margin: 'auto',
-  width: '29%'
+  zIndex: '10'
 };
 
 export default Login;

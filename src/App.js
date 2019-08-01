@@ -1,22 +1,20 @@
 import React from 'react';
 import ScoopHeader from './components/header';
 import ScoopCarousel from './components/scoopCarousel';
-import ChatButton from './components/chatButton';
 import ScoopFooter from './components/scoopFooter';
-import ChatBot from './components/chatBotTest';
+import ChatBot from './components/chatBot';
+import ChatModal from './components/chatModal';
 
 
 function App() {
 
-  
 
   return (
     <div>
       <ScoopHeader />
       <ScoopCarousel />
-      <ChatButton />
+      <ChatModal />
       <ScoopFooter />
-      <ChatBot />
     </div>
   );
 }

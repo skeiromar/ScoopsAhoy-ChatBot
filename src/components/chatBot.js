@@ -1,33 +1,26 @@
 import React, {useState, useEffect} from 'react';
 import Login from './login';
-import ChatApp from './chatBotTestApp';
+import ChatApp from './chatBotApp';
 import '@progress/kendo-theme-material/dist/all.css';
 
 
 function ChatBot() {
     const [loggedIn, setLoggedIn] = useState(false);
     const [username, setUsername] = useState('');
-    const [arr, setArr] = useState(['a','b']);
 
     function handleLogin(e) {
         e.preventDefault();
         setLoggedIn(true);    
     }
     function handleUsernameChange(e) {
+        // updates username as one types in the username field
         setUsername(e.target.value);
-        // setArr(s => {
-        //     s.push(e.target.value);
-        //     console.log(s);
-        //     return s;
-        // });
+
     }
-    // useEffect(() => {
-    //     console.log("initial mount log");
-    // }, [username]);   
 
-
+    // renders the login component if not logged in, else the Chat App itself
     return !loggedIn ? (
-        <div style={{margin: 'auto', width: '25%'}}>
+        <div style={{width: '100%'}}>
             <Login 
             handleLogin={handleLogin}
             handleUsernameChange={handleUsernameChange}

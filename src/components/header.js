@@ -9,7 +9,6 @@ function ScoopHeader() {
                     <img id="scoop_logo" src="https://tinyurl.com/y6fp7j2f" alt=""/>
                 </div>   
                 <span id="scoop-font">Scoop's Ahoy <i className="fas fa-ice-cream fa-1x"></i></span>
-                <span id="menu-font">Menu</span>
             </div>
         </div>
     )
