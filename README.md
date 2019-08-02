@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.com/skeiromar/ScoopsAhoy-ChatBot.svg?branch=master)](https://travis-ci.com/skeiromar/ScoopsAhoy-ChatBot)
+
 # Scoops Ahoy Chat Bot
 
 ### How to run this app ? 
